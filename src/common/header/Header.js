@@ -25,8 +25,8 @@ export default function ButtonAppBar() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <AppBar position="static">
+    <div className={classes.root} style={{ margin: 0 }}>
+      <AppBar position="static" color="default">
         <Toolbar>
           <IconButton
             edge="start"
